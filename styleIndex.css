@@ -3,7 +3,11 @@
     margin: 0px;
 } */
 
-body {
+body,html {
+    height: 100%;
+}
+
+.index-background{
     background-image: url(images/veganiceCover.jpg);
     background-position: center;
     background-size: cover;
