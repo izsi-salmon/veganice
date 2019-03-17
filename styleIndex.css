@@ -1,0 +1,156 @@
+/* * {
+    box-sizing: border-box;
+    margin: 0px;
+} */
+body {
+    background-image: url(images/veganiceCover.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+}
+
+@font-face {
+    font-family: 'market_decoregular';
+    src: url('fonts/market_deco-webfont.woff2') format('woff2'),
+         url('fonts/market_deco-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+header {
+	background-color: #1C1C1C;
+	width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+header img {
+    height: 60px;
+	margin: 10px 10px 10px 15px;
+}
+
+#nav{
+    width: 100%;
+}
+
+#nav a{
+    display: inline-block;
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    margin: 0px;
+    padding: 40px 0px;
+    text-align: center;
+    text-decoration: none;
+    width: 33.333%;
+}
+
+#aShops{
+    color: #FFF;
+    background: #575757;
+    opacity: 0.8;
+}
+
+#aShops:hover{
+    background: #E1A1A4;
+    transition: 0.3s;
+}
+
+#aFlavours{
+    color: #1C1C1C;
+    background: #FFF;
+    opacity: 0.8;
+}
+
+#aFlavours:hover{
+    color: #FFF;
+    background: #E1A1A4;
+    transition: 0.3s;
+}
+
+#aStory{
+    color: #FFF;
+    background: #575757;
+    opacity: 0.8;
+}
+
+#aStory:hover {
+    background: #E1A1A4;
+    transition: 0.3s;
+}
+
+.heading-image {
+    display: none;
+}
+
+.secret-p {
+    font-family: 'raleway', sans-serif;
+    font-size: 1em;
+    margin: auto;
+    width: 70%;
+    text-align: center;
+    margin-top: 7%;
+    margin-bottom: 10%;
+}
+
+main{
+    margin-top: 10%;
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
+}
+
+main h1 {
+    color: #FFF;
+    font-family: 'market_decoregular';
+    font-size: 9vw;
+    margin-bottom: 0;
+}
+
+#blurb {
+    margin: auto;
+    width: 70%;
+}
+
+#blurb p{
+    color: #FFF;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5vw;
+    font-weight: 200;
+}
+
+@media only screen and (max-width: 1500px){
+    body {
+        background-image: none;
+    }
+    
+    main {
+        display: none;
+    }
+    
+    .heading-image {
+        display: block;
+    }
+    
+}
+
+@media only screen and (max-width: 700px){
+    
+    #nav a {
+        display: block;
+        width: 100%;
+        font-size: 14px;
+        padding: 10px 0px;
+    }
+    
+    header img {
+    height: 40px;
+}
+    
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,318 @@
+/* * {
+    box-sizing: border-box;
+    margin: 0px;
+} */
+
+@font-face {
+    font-family: 'market_decoregular';
+    src: url('fonts/market_deco-webfont.woff2') format('woff2'),
+         url('fonts/market_deco-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+header {
+	background-color: #1C1C1C;
+	width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+header img {
+    height: 60px;
+	margin: 10px 10px 10px 15px;
+}
+
+#nav{
+    position: absolute;
+    width: 100%;
+}
+
+#nav a{
+    display: inline-block;
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    margin: 0px;
+    padding: 40px 0px;
+    text-align: center;
+    text-decoration: none;
+    width: 33.333%;
+}
+
+#aShops{
+    color: #FFF;
+    background: #575757;
+    opacity: 0.8;
+}
+
+#aShops:hover{
+    background: #E1A1A4;
+    transition: 0.3s;
+}
+
+#aFlavours{
+    color: #1C1C1C;
+    background: #FFF;
+    opacity: 0.8;
+}
+
+#aFlavours:hover{
+    color: #FFF;
+    background: #E1A1A4;
+    transition: 0.3s;
+}
+
+#aStory{
+    color: #FFF;
+    background: #575757;
+    opacity: 0.8;
+}
+
+#aStory:hover {
+    background: #E1A1A4;
+    transition: 0.3s;
+}
+
+.cover-img {
+    
+}
+
+.main-content {
+    font-family: 'raleway', sans-serif;
+    margin: auto;
+    width: 90%;
+}
+
+.container {
+    color: #1C1C1C;
+    margin: auto;
+    width: 90%;
+}
+
+.container p{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 200;
+    margin: 4% auto;
+    width: 60%;
+}
+
+.container span {
+    font-weight: 400;
+}
+
+br {
+    display: none;
+}
+
+.divImg {
+    margin: 0 auto;
+    width: 939px;
+}
+
+.divImg img{
+    border-radius: 5px;
+    margin: 0 25px 50px 25px;
+    opacity: 0.9;
+    width: 260px;
+}
+
+.container1, .container2, .container3, .container4, .container5, .container6 {
+    color: #FFF;
+    display: inline-block;
+    font-family: 'market_decoregular';
+    font-size: 24px;
+    position: relative;
+    text-align: center;
+}
+
+#text1, #text2, #text3, #text4, #text5, #text6 {
+    background: rgba(10, 0, 5, 0.3);
+    border-radius: 5px;
+    display: none;
+    position: absolute;
+    top: 41.2%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 103px 0px;
+    width: 260px;
+}
+
+footer {
+    background-color: #575757;
+    color: #FFF;
+    font-family: 'Raleway', sans-serif;
+    width: 100%
+}
+
+.footer-container {
+    margin: auto;
+    padding-top: 1%;
+    width: 90%;
+}
+
+
+.f-column {
+    vertical-align: middle;
+    display: inline-block;
+    /*margin: 1.5% 7% 0 7%;*/
+    width: 33%;
+}
+
+footer span {
+    display: block;
+    padding-bottom: 3px;
+}
+
+#f-column-2 span{
+    text-align: center;
+}
+
+#f-column-2 p {
+    margin-left: 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 14px;
+    margin-left: 15px;
+}
+
+i {
+    width: 30px;
+}
+
+footer a {
+    color: #FFF;
+    display: inline-block;
+    font-size: 60px;
+    padding: 30px 20px;
+}
+
+.icons {
+    text-align: center;
+}
+
+.copyright-text {
+    color: #C8C8C8;
+    font-size: 10px;
+    text-align: right;
+}
+
+@media only screen and (max-width: 1000px){
+    #nav {
+        position: inherit;
+    }
+    
+    .container p{
+    font-size: 14px;
+    width: 80%;
+}
+    .divImg {
+    margin: 0 auto;
+    width: 630px;
+}
+    
+    footer p {
+        font-size: 70%;
+    }
+    
+    i {
+        width: 20px;
+    }
+    
+}
+
+@media only screen and (max-width: 700px){
+    
+    #nav a {
+        display: block;
+        width: 100%;
+        font-size: 14px;
+        padding: 10px 0px;
+    }
+    
+    header img {
+    height: 40px;
+    }
+    
+    .container {
+        width: 100%;
+    }
+    
+    .container p {
+        margin-top: 15px;
+        text-align: left;
+    }
+    
+    br {
+        display: block;
+    }
+    
+    .divImg {
+    margin: 0 auto;
+    width: 200px;
+}
+    
+.divImg img{
+    border-radius: 5px;
+    margin: 10px 0;
+    opacity: 0.7;
+    width: 200px;
+}
+
+.container1, .container2, .container3, .container4, .container5, .container6 {
+    color: #1C1C1C;
+    display: block;
+    font-size: 20px;
+}
+
+#text1, #text2, #text3, #text4, #text5, #text6 {
+    background: none;
+    display: block;
+    top: 50%;
+    padding: 0;
+    width: 200px;
+}
+    
+    .f-column {
+        display: block;
+        width: 100%;
+    }
+    
+    footer span {
+    padding-top: 5px;
+    font-size: 14px;
+    }
+
+    #f-column-2 span{
+    text-align: left;
+    }
+    
+    footer p {
+        font-size: 10px;
+        margin-left: 0px;
+        text-align: left;
+    }
+    
+    #f-column-2 p {
+    text-align: left;
+    }
+    
+    i {
+        width: 20px;
+    }
+    
+    footer a {
+        font-size: 30px;
+    }
+    
+}
+
+
+
+
+
+
+
+
